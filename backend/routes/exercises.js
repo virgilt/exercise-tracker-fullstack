@@ -2,7 +2,7 @@
 const router = require('express').Router();
 
 //Require exercise model
-let Exercise = require('../model/exercies.model');
+let Exercise = require('../models/exercise.model');
 
 //Get request
 router.route('/').get((req, res) => {

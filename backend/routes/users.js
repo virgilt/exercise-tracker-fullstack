@@ -2,7 +2,7 @@
 const router = require('express').Router();
 
 //Require user model
-let User = require('../models/users.model');
+let User = require('../models/user.model');
 
 //Get request
 router.route('/').get((req, res) => {
